@@ -1,0 +1,1421 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*----------------------TITULO IMG-------------------------*/
+div#title{
+	margin: auto;
+    width: 100%;
+    height: 200px;
+}
+
+div#titleimg{
+	float: right;
+    width: 50%;
+	text-align: left;
+    height: 100%;
+}
+
+div#titletex{
+	float: left;
+    width: 50%;
+    text-align: right;
+    height: 100%;
+}
+/*----------------------TITULO HIS---------------------------*/
+div#titleimgh{
+	float: right;
+    width: 45%;
+	text-align: left;
+    height: 100%;
+}
+
+div#titletexh{
+	float: left;
+    width: 55%;
+    text-align: right;
+    height: 100%;
+}
+
+@media (max-width: 720px){
+	div#title{
+	margin: auto;
+    width: 100%;
+    height: 380px;
+}
+
+div#titleimgh{
+    width: 100%;
+	text-align: center;
+	margin-top: up;
+    height: 60%;
+}
+
+div#titletexh{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+div#titleimg{
+    width: 100%;
+	text-align: center;
+	margin-top: up;
+    height: 60%;
+}
+
+div#titletex{
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+	
+}
+/*-------------------------CUADROS DE TIP---------------------*/
+
+
+div#cuadro1{
+    margin: auto;
+    width: 90%;
+    height: auto;
+	font-size: 10px;
+    background-color: #00d8ff;
+	box-shadow: 5px 5px 50px -5px #000000;
+
+}
+
+div#cuadro2{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 35px -10px #000000;
+}
+
+.video {
+	width: 288px;
+	height: 162px;
+}
+
+div#cuadrotex{
+    width: 90%;
+    height: auto;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+div#cuadroimg{
+	margin-top: center;
+    width: 100%;
+    height: auto;
+	background-color: #FFFFFF;
+}
+
+div#cuadrotex1{
+    width: 90%;
+    height: auto;
+	font-size: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+div#cuadroimg1{
+	margin-top: center;
+    width: 100%;
+    height: auto;
+	background-color: #FFFFFF;
+}
+
+/*-----------------------------TABLET-------------------------*/
+@media (min-width: 720px) {
+	
+div#cuadro1{
+    margin: auto;
+    width: 90%;
+    height: auto;
+	font-size: 15px;
+    background-color: #00d8ff;
+	box-shadow: 5px 5px 50px -5px #000000;
+}
+
+div#cuadro2{
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 35px -10px #000000;
+}
+
+.video {
+	width: 270px;
+	height: 170px;
+}
+
+div#cuadrotex{
+    float: left;
+    width: 60%;
+    height: auto;
+	background-color: #FFFFFF;
+}
+
+div#texto{
+	width: 98%;
+	height: 100%;
+	font-size: 140%;
+	margin-left: auto;
+	text-align: center;
+}
+
+div#cuadroimg{
+    float: right;
+	margin-top: center;
+    width: 40%;
+	height: auto;
+	line-height: 80px;
+	background-color: #FFFFFF;
+}
+
+div#cuadrotex1{
+    float: right;
+    width: 60%;
+    height: auto;
+	background-color: #FFFFFF;
+}
+
+div#texto1{
+	width: 92%;
+	height: 100%;
+	font-size: 140%;
+	margin-right: auto;
+	text-align: center;
+}
+
+div#cuadroimg1{
+    float: left;
+	margin-top: center;
+    width: 40%;
+    height: auto;
+	line-height: 80px;
+	background-color: #FFFFFF;
+}
+}
+
+/*---------------------------------LapTop----------------------------------*/
+@media (min-width: 1000px) {
+	
+div#cuadro1{
+    margin: auto;
+    width: 85%;
+    height: auto;
+    background-color: #00d8ff;
+	font-size: 125%;
+	box-shadow: 5px 5px 50px -5px #000000;		
+}
+
+div#cuadro2{
+    margin: auto;
+    width: 85%;
+    height: 250px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 35px -10px #000000;
+}
+
+.video {
+	width: 350px;
+	height: 215px;
+}
+
+div#cuadrotex{
+    float: left;
+    width: 60%;
+    height: 100%;
+	background-color: #FFFFFF;
+}
+
+div#texto{
+	width: 92%;
+	height: 100%;
+	font-size: 110%;
+	margin-left: auto;
+	text-align: center;
+}
+
+div#cuadroimg{
+    float: right;
+	margin-top: center;
+    width: 40%;
+	height: auto;
+	line-height: 12px;
+	background-color: #FFFFFF;
+}
+
+div#cuadrotex1{
+    float: right;
+    width: 60%;
+    height: 100%;
+	background-color: #FFFFFF;
+}
+
+div#texto1{
+	width: 92%;
+	height: 100%;
+	font-size: 110%;
+	margin-right: auto;
+	text-align: center;
+}
+
+div#cuadroimg1{
+    float: left;
+	margin-top: center;
+    width: 40%;
+	height: auto;
+	line-height: 12px;
+	background-color: #FFFFFF;
+}
+}
+
+/*---------------------------------PC----------------------------------*/
+@media (min-width: 1400px) {
+	
+div#cuadro1{
+    margin: auto;
+    width: 75%;
+    height: auto;
+    background-color: #00d8ff;
+	font-size: 125%;
+	box-shadow: 5px 5px 50px -5px #000000;		
+}
+
+div#cuadro2{
+    margin: auto;
+    width: 75%;
+    height: 250px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 35px -10px #000000;
+}
+
+.video {
+	width: 400px;
+	height: 230px;
+}
+
+div#cuadrotex{
+    float: left;
+    width: 60%;
+    height: 100%;
+	background-color: #FFFFFF;
+}
+
+div#texto{
+	width: 90%;
+	height: 100%;
+	font-size: 120%;
+	margin-left: auto;
+	text-align: center;
+}
+
+div#cuadroimg{
+    float: right;
+	margin-top: center;
+    width: 40%;
+	height: auto;
+	line-height: 8px;
+	background-color: #FFFFFF;
+}
+
+div#cuadrotex1{
+    float: right;
+    width: 60%;
+    height: 100%;
+	font-size: 120;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+div#texto1{
+	width: 90%;
+	height: 100%;
+	font-size: 120%;
+	margin-right: auto;
+	text-align: center;
+}
+
+div#cuadroimg1{
+    float: left;
+	margin-top: center;
+    width: 40%;
+	height: auto;
+	line-height: 8px;
+	background-color: #FFFFFF;
+}
+}
+
+/*--------------------------------FIN DE TIPS-----------------------------*/
+
+/*-----------------------Estilo Personajes-------------------------------*/
+@media (min-width: 150px) {
+div#personaje1 img{
+	margin: auto;
+	height: 320px;
+	position: absolute;
+	left: 80px;
+	top: 950px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 320px;
+	position: absolute;
+	left: 80px;
+	top: 950px;
+}
+}
+@media (min-width: 320px) {
+div#personaje1 img{
+	margin: auto;
+	height: 400px;
+	position: absolute;
+	left: 80px;
+	top: 900px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 400px;
+	position: absolute;
+	left: 80px;
+	top: 820px;
+}
+}
+/*---------------Mobile M--------------*/
+@media (min-width: 375px) {
+div#personaje1 img{
+	margin: auto;
+	height: 400px;
+	position: absolute;
+	left: 95px;
+	top: 800px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 400px;
+	position: absolute;
+	left: 95px;
+	top: 800px;
+}
+}
+/*---------------Mobile L--------------*/
+@media (min-width: 425px) {
+div#personaje1 img{
+	margin: auto;
+	height: 400px;
+	position: absolute;
+	left: 140px;
+	top: 800px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 500px;
+	position: absolute;
+	left: 150px;
+	top: 800px;
+}
+}
+/*---------------Mobile L.2--------------*/
+@media (min-width: 615px) {
+div#personaje1 img{
+	margin: auto;
+	height: 400px;
+	position: absolute;
+	left: 140px;
+	top: 800px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 500px;
+	position: absolute;
+	left: 000px;
+	top: 300px;
+}
+}
+/*---------------TABLET--------------*/
+@media (min-width: 721px) {
+	
+div#personaje1 img{
+	margin: auto;
+	height: 600px;
+	position: absolute;
+	left: 650px;
+	top: 125px;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 600px;
+	position: absolute;
+	left: 500px;
+	top: 325px;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+}
+
+/*---------------TABLET 1--------------*/
+@media (min-width: 780px) {
+	
+div#personaje1 img{
+	margin: auto;
+	height: 600px;
+	position: absolute;
+	left: 600px;
+	top: 125px;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 600px;
+	position: absolute;
+	left: 570px;
+	top: 270px;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+}
+
+/*---------------TABLET 2--------------*/
+@media (min-width: 860px) {
+	
+div#personaje1 img{
+	margin: auto;
+	height: 600px;
+	position: absolute;
+	left: 600px;
+	top: 125px;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 600px;
+	position: absolute;
+	left: 10px;
+	top: 195px;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+}
+
+/*---------------TABLET variable--------------*/
+
+@media (min-width: 880px) {
+	
+div#personaje2 img{
+	margin: auto;
+	height: 600px;
+	position: absolute;
+	left: 000px;
+	top: 125px;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+}
+
+/*---------------Laptop-------------------*/
+@media (min-width: 1020px) {
+	
+div#personaje1 img{
+	margin: auto;
+	height: 650px;
+	position: absolute;
+	left: 600px;
+	top: 125px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 650px;
+	position: absolute;
+	left: 100px;
+	top: 195px;
+}
+}
+/*---------------PC 1--------------------*/
+@media (min-width: 1200px) {
+	
+div#personaje1 img{
+	margin: auto;
+	height: 750px;
+	position: absolute;
+	left: 850px;
+	top: 125px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 750px;
+	position: absolute;
+	left: 150px;
+	top: 125px;
+}
+}
+/*---------------PC 2--------------------*/
+@media (min-width: 1500px) {
+	
+div#personaje1 img{
+	margin: auto;
+	height: 750px;
+	position: absolute;
+	left: 1150px;
+	top: 125px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 750px;
+	position: absolute;
+	left: 250px;
+	top: 125px;
+}
+}
+
+/*---------------PC 3--------------------*/
+@media (min-width: 1700px) {
+	
+div#personaje1 img{
+	margin: auto;
+	height: 750px;
+	position: absolute;
+	left: 1450px;
+	top: 125px;
+}
+
+div#personaje2 img{
+	margin: auto;
+	height: 750px;
+	position: absolute;
+	left: 250px;
+	top: 125px;
+}
+}
+
+/*-----------------------FIN DE Estilo Personajes------------------------*/
+
+/*----------------------------------HEADER--------------------------------*/
+header{
+    width: 100%;
+    height: 90px;
+    margin-top: 0px;
+    position: fixed;      
+    z-index: 1;
+    padding: 20px;
+		background: #2db7cd;
+}
+
+.container__menu{
+    max-width: 2000px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 90px;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 36px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;    
+    text-transform: uppercase;
+}
+
+#selected{
+    background: #000000;
+		color: #FFFFFF; 
+    padding: 10px 40px;
+    border-radius: 50px;
+		box-shadow: 1px 1px 30px -12px #000000;
+}
+
+.menu nav img{
+    display: none;
+}
+
+.menu #btn_menu{
+    display: none;
+}
+
+/*--------------------------------FIN HEADER-----------------------------*/
+/*--------------------------------COVER----------------------------------*/
+
+.container__cover{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/Background-ultima.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.container2__cover{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../images/Background-page.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.cover{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__cover .text{
+    max-width: 400px;
+}
+
+.container__cover .text h1{    
+font-family: 'miFuente';                                  
+    font-size: 46px;
+    font-weight: 600;
+		color: #FFFFFF;
+	  font-size: 330%;
+	  -webkit-text-stroke: 1px black;
+	  text-shadow: 0.1em 0.1em 0.1em black
+}
+
+.container__cover .text p{
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.container__cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: #0000FF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #FFFFFF;
+    transition: all 300ms;
+}
+
+.container__cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px #000000;
+}
+
+
+.container__cover .svg img{
+    width: 600px;
+    animation: move-vector 4s linear infinite;
+}
+
+/*---------------Fin Cover 1--------------------------*/
+
+/*Esto fue lo que le cambie*/
+.container2__cover .text{
+    position: absolute;
+	right: 200px;
+    max-width: 500px;
+    
+}
+
+.container2__cover .text h1{    
+font-family: 'miFuente';      
+text-align: center;                            
+    font-size: 46px;
+    font-weight: 500;
+		color: #FFFFFF;
+	  font-size: 330%;
+	  -webkit-text-stroke: 1px black;
+	  text-shadow: 0.1em 0.1em 0.1em black
+}
+
+.container2__cover .text p{
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container2__cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 40px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: #0000FF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #FFFFFF;
+    transition: all 300ms;
+}
+
+.container2__cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px #000000;
+}
+.container2__cover .svg img{
+    width: 600px;
+    animation: move-vector 4s linear infinite;
+}
+/*----------------------FIN COVER 2---------------------*/
+
+
+@keyframes move-vector {
+    0%{
+        transform: translateY(15px);
+    }50%{
+        transform: translateY(0px);
+    }100%{
+        transform: translateY(15px);
+    }
+}
+
+/*-----------------------FIN-COVER-------------------------*/
+
+
+/*----------------------Imagenes historias----------------*/
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.g-img{
+	padding: 70px 80px 0px;
+	
+}
+/*--------------------Estilos letras--------------------*/
+
+@font-face{
+	font-family: 'miFuente';
+	src: url(../fuentes/FORTNITE.TTF);
+}
+
+#fuente-per{
+	font-family: 'miFuente';
+	color: #FFFFFF;
+	font-size: 500%;
+	-webkit-text-stroke: 8px blue;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+
+@media (min-width: 720px) {
+#fuente-per{
+	font-family: 'miFuente';
+	color: #FFFFFF;
+	font-size: 800%;
+	-webkit-text-stroke: 10px blue;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+}
+
+#fuente-q{
+	font-family: 'miFuente';
+	color: #FFFFFF;
+	font-size: 300%;
+	-webkit-text-stroke: 4px blue;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+
+@media (min-width: 720px) {
+#fuente-q{
+	font-family: 'miFuente';
+	color: #FFFFFF;
+	font-size: 600%;
+	-webkit-text-stroke: 6px blue;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+}
+
+
+/*-------------------Inicio imagenes Hist------------------*/
+
+pose {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #0D889B;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+    border-top: solid 3px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #f3f3f3;
+}
+
+.card .back h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+	font-size: 25px;
+    letter-spacing: 1px;
+} 
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+/*-------------------Fin imagenes Hist------------------*/
+/*---------------------CARTAS OPCION---------------------*/
+pose {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card1 {
+    position: relative;
+    width: 360px;
+    height: 480px;
+    margin: 20px;
+}
+
+.card1 .face1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card1 .front1 {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card1 .front1 img {
+    
+    width: 100%;
+    height: 100%;
+	margin: auto;
+    object-fit: cover;
+}
+
+.card1 .back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card1 .back1 .link {
+    border-top: solid 3px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card1 .back1 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover .front1 {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*---------------------CARTAS RESPUESTA---------------------*/
+pose {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card2 {
+    position: relative;
+    width: 360px;
+    height: 480px;
+    margin: 20px;
+}
+
+.card2 .face2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 .front2 {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card2 .front2 img {
+    
+    width: 100%;
+    height: 100%;
+	margin: auto;
+    object-fit: cover;
+}
+
+.card2 .back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 .back2 .link {
+    border-top: solid 3px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card2 .back2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card:hover .front2 {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*-------------------Haciendo la página Responsive------------------*/
+/*--------------Container1-------------*/
+
+@media screen and (max-width: 1700px){
+
+    .container__cover{
+        background-position: 50%;
+    }
+
+}
+
+
+
+@media screen and (max-width:1200px){
+
+    header{
+        padding: 40px;
+				
+    }
+
+    .container__cover{
+        background-position: -100px;
+    }
+
+    .container__cover .svg img{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1020px){
+	
+		.container__cover .text{
+    max-width: 400px;
+}
+
+.container__cover .text h1{
+    font-size: 46px;
+		background: #FFFFFF;
+    font-weight: 600;
+		color: #00d8ff;
+	  font-size: 330%;
+	  -webkit-text-stroke: 1px black;
+	  text-shadow: 0.1em 0.1em 0.1em black
+		
+}
+
+.container__cover .text p{
+    font-size: 25px;
+		background: #FFFFFF;
+    margin-top: 40px;
+}
+
+.container__cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: #0000FF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #FFFFFF;
+    transition: all 300ms;
+}
+
+.container__cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px #000000;
+}
+
+    .container__cover{
+        background-image: url("");
+        background: images/fondogota.jpg;
+    }
+
+    .container__cover .svg img{
+        display: none;
+    }
+
+    .container__cover .text{
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+	
+	.container__cover .text{
+    max-width: 400px;
+}
+
+.container__cover .text h1{
+    font-size: 46px;
+		background: #FFFFFF;
+    font-weight: 600;
+		color: #00d8ff;
+	  font-size: 330%;
+	  text-shadow: 0.1em 0.1em 0.1em black
+		
+}
+
+.container__cover .text p{
+    font-size: 25px;
+		background: #FFFFFF;
+    margin-top: 40px;
+}
+
+.container__cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: #0000FF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #FFFFFF;
+    transition: all 300ms;
+}
+
+.container__cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px #000000;
+}
+
+
+
+@media screen and (max-width: 1700px){
+
+    .container__cover{
+        background-position: 50%;
+    }
+
+}
+/*--------------FIN Container1-------------*/
+
+/*--------------Container2-------------*/
+@media screen and (max-width: 1700px){
+
+    .container2__cover{
+        background-position: 50%;
+    }
+
+}
+
+
+
+@media screen and (max-width:1200px){
+
+    header{
+        padding: 40px;
+				
+    }
+
+    .container2__cover{
+        background-position: -100px;
+    }
+
+    .container2__cover .svg img{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1020px){
+	
+		.container2__cover .text{
+    max-width: 500px;
+    position: absolute;
+	right:25px;
+}
+
+.container2__cover .text h1{
+    font-size: 46px;
+		background: #FFFFFF;
+    font-weight: 600;
+		color: #00d8ff;
+	  font-size: 330%;
+	  -webkit-text-stroke: 1px black;
+	  text-shadow: 0.1em 0.1em 0.1em black
+		
+}
+
+.container2__cover .text p{
+    font-size: 25px;
+		background: #FFFFFF;
+    margin-top: 40px;
+}
+
+.container2__cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: #0000FF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #FFFFFF;
+    transition: all 300ms;
+}
+
+.container2__cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px #000000;
+}
+
+    .container2__cover{
+        background-image: url("");
+        background: images/fondogota.jpg;
+    }
+
+    .container2__cover .svg img{
+        display: none;
+    }
+
+    .container2__cover .text{
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+	
+	.container2__cover .text{
+    max-width: 400px;
+}
+
+.container2__cover .text h1{
+    font-size: 25px;
+		background: #FFFFFF;
+    font-weight: 500;
+		color: #00d8ff;
+	  font-size: 330%;
+	  text-shadow: 0.1em 0.1em 0.1em black
+		
+}
+
+.container2__cover .text p{
+    font-size: 20px;
+		background: #FFFFFF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container2__cover .text input{
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    background: #0000FF;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px -12px #FFFFFF;
+    transition: all 300ms;
+}
+
+.container2__cover .text input:hover{
+    box-shadow: 1px 1px 30px -6px #000000;
+}
+
+/*--------------FIN Container2-------------*/
+
+    .menu nav{
+        position: fixed;
+        top: 0;
+        right: -250px;
+        background: #2db7cd;
+        width: 250px;
+        height: 100vh;
+        padding: 40px;
+        z-index: 1;
+        transition: all 300ms;
+    }
+
+    .menu ul{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .menu ul li{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .menu ul li a{
+        color: #FFFFFF;
+    }
+
+    #selected{
+        background: none;
+        padding: 10px;
+        border-radius: none;
+        color: #000000;
+    }
+
+    .menu nav img{
+        display: block;
+        width: 170px;
+    }
+
+    #back_menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0,0,0,0.5);
+        display: none;
+
+    }
+
+    .menu #btn_menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        background: #FFFFFF;
+        font-size: 24px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 300ms;
+    }
+
+    .menu #btn_menu:hover{
+        background: #CBCBCB;
+    }
